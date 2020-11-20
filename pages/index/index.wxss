@@ -1,0 +1,80 @@
+/* pages/index/index.wxss */
+.banderWrap{
+
+}
+.banderWrap .banderItem{
+  width: 100%;
+  height: 300rpx;
+}
+.banderWrap .banderItem image{
+  width: 100%;
+  height: 300rpx;
+}
+
+/* 字体图标 */
+.iconWrap{
+  display: flex;
+  font-size: 26rpx;
+  justify-content: space-around;
+  margin-top: 20rpx;
+
+}
+.iconWrap .iconfont{
+  width: 100rpx;
+  height: 100rpx;
+  font-size: 50rpx;
+  background: rgb(240, 19, 19);
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 50%;
+  color: white;
+}
+.iconWrap .iconItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 文字描述 */
+.muscicfont text{
+  display: block;
+  margin: 10px;
+  color: #666;
+}
+.muscicfont .musicitem{
+  margin: 10px;
+}
+.muscicfont .musicitem :nth-child(1){
+  float: left;
+}
+.muscicfont .musicitem :nth-child(2){
+  float: right;
+  font-size: 13px;
+  border: black 1rpx solid;
+  border-radius: 5px
+}
+/* betterol 图片 */
+.betterolImage{
+
+}
+.betterolImage .likemusicwrap .likemusicitem{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rpx;
+}
+.betterolImage .likemusicwrap {
+  display: flex;
+}
+.betterolImage .likemusicwrap .likemusicitem image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+.betterolImage .likemusicwrap .likemusicitem text{
+   /* 多行文本溢出隐藏 省略号代替*/
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical; /*设置对其模式*/
+   -webkit-line-clamp: 2; /*设置多行的行数*/
+}

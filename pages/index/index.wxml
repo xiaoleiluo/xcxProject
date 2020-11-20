@@ -1,0 +1,71 @@
+<view>
+  <swiper class="banderWrap" autoplay indicator-dots  indicator-color="ivory" indicator-active-color='#d43c33' >
+    <swiper-item class="banderItem">
+      <image src="/static/images/beiyong.jpeg"></image>
+    </swiper-item>
+    <swiper-item class="banderItem">
+      <image src="/static/images/beiyong.jpeg"></image>
+    </swiper-item>
+    <swiper-item class="banderItem">
+      <image src="/static/images/beiyong.jpeg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view class="iconWrap">
+  <view class="iconItem">
+    <text class="iconfont icon-tuijian"></text>
+    <text>每日推荐</text>
+  </view>
+  <view class="iconItem">
+    <text class="iconfont icon-yinle"></text>
+    <text>其他页面</text>
+  </view>
+  <view class="iconItem">
+    <text class="iconfont icon-diantai"></text>
+    <text>电台</text>
+  </view>
+  <view class="iconItem">
+    <text class="iconfont icon-_huabanfuben"></text>
+    <text>排行榜</text>
+  </view>
+  <view class="iconItem">
+    <text class="iconfont icon-02"></text>
+    <text>直播</text>
+  </view>
+</view>
+<!-- 文字描述 -->
+<view class="muscicfont">
+  <text>推荐歌曲</text>
+  <view class="musicitem">
+    <view>为你精心推荐</view>
+    <view>查看更多</view>
+  </view>
+</view>
+<!--betterscroll图片  -->
+<view class="betterolImage">
+    <scroll-view class="likemusicwrap" enable-flex scroll-x>
+      <view class="likemusicitem">
+        <image src="/static/images/beiyong.jpeg"></image>
+        <text>我喜欢的图片,我喜欢的图片，我喜欢的图片，我喜欢的图片，我喜欢的图片，我喜欢的图片，</text>
+      </view>
+      <view class="likemusicitem">
+        <image src="/static/images/beiyong.jpeg"></image>
+        <text>我喜欢的图片,我喜欢的图片，我喜欢的图片，我喜欢的图片，我喜欢的图片，我喜欢的图片，</text>
+      </view>
+      <view class="likemusicitem">
+        <image src="/static/images/beiyong.jpeg"></image>
+        <text>我喜欢的图片,我喜欢的图片，我喜欢的图片，我喜欢的图片，我喜欢的图片，我喜欢的图片，</text>
+      </view>
+      <view class="likemusicitem">
+        <image src="/static/images/beiyong.jpeg"></image>
+        <text>我喜欢的图片,我喜欢的图片，我喜欢的图片，我喜欢的图片，我喜欢的图片，我喜欢的图片，</text>
+      </view>
+      <view class="likemusicitem">
+        <image src="/static/images/beiyong.jpeg"></image>
+        <text>我喜欢的图片,我喜欢的图片，我喜欢的图片，我喜欢的图片，我喜欢的图片，我喜欢的图片，</text>
+      </view>
+    </scroll-view>
+
+  
+</view>
